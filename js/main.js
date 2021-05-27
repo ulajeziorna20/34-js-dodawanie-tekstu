@@ -1,6 +1,10 @@
-let paragraf = document.querySelector('p');
+let myText = document.querySelector('p');
 
-paragraf.innerText = 'Dodałam tekst do parafrafu';
+/* console.log(myText); zrobiłam z tego kom bo mi się dublowało w console wyswietlały się paragrafy z wersu 3 i 7 */ 
 
-console.log(paragraf);
+myText.textContent = 'Wstawiłam ten tekst dzięki JS';
+
+console.log(myText);
+
+
 
